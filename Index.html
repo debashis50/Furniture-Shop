@@ -6,51 +6,73 @@
     <link rel="icon" href="Pictures/logo.png" type="image/png">
     <title>Udvob Furniture</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <!-- Header Section -->
-<header>
-    <h1>Udvob Furniture</h1>
-    <p>Your Comfort, Our Craft</p>
+<header class="header">
+<div class="header-container">
+    
+    <!-- LEFT SIDE -->
+    <div class="left-section">
 
-    <nav>
-        <a href="#">Home</a> |
-        <a href="#">Products</a> |
-        <a href="#">About Us</a> |
+        <div class="menu-container">
+            <div class="menu-icon">☰</div>
+
+            <div class="category-menu">
+                <ul>
+                    <li>Almirah</li>
+                    <li>Bed</li>
+                    <li>Bookshelf</li>
+                    <li>Ceiling</li>
+                    <li>Dining Table</li>
+                    <li>Door</li>
+                    <li>Dressing Table</li>
+                    <li>Kitchen Cabinets</li>
+                    <li>Showcase</li>
+                    <li>Sofa</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="logo-area">
+            <h1>Udvob Furniture</h1>
+            <p>Your Comfort, Our Craft</p>
+        </div>
+
+    </div>
+
+
+    <!-- CENTER MENU -->
+    <nav class="nav-menu">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
         <a href="#">Contact</a>
+    </nav>
+
+
+    <!-- RIGHT SIDE -->
+    <div class="right-section">
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search Furniture..." class="search-input">
+
+            <button class="search-btn">
+                <img src="Pictures/search.png" alt="Search">
+            </button>
+        </div>
 
         <div class="cart-icon">
-       <img src="Pictures/cart.png" alt="Cart">
-     </div>
-
-    </nav>
-    <div class="header-actions">
-   <div class="search-container">
-      <input type="text" placeholder="Search Furniture...." class="search-input">
-      <button class="search-btn">
-         <img src="Pictures/search.png" alt="Search">
-      </button>
-   </div>
-</div>
-    <div class="menu-container">
-        <div class="menu-icon">☰</div>
-        <div class="category-menu">
-            <ul>
-                <li>Almirah</li>
-                <li>Bed</li>
-                <li>Bookshelf</li>
-                <li>Ceiling</li>
-                <li>Dining Table</li>
-                <li>Door</li>
-                <li>Dressing Table</li>
-                <li>Kitchen Cabinets</li>
-                <li>Showcase</li>
-                <li>Sofa</li>
-            </ul>
+            <img src="Pictures/cart.png" alt="Cart">
         </div>
+
     </div>
+
+</div>
+
 </header>
 
 <hr>
@@ -73,7 +95,9 @@
         <img src="Pictures/almirah.jpg" class="product-img">
         <p>Spacious and elegant Wooden almirah</p>
         <!--<p>Price: $320</p>-->
-        <button class="buy-btn">See More</button>
+        <a href="almirah.html">
+          <button class="buy-btn">See More</button>
+        </a>
     </div>
 
     <div>
