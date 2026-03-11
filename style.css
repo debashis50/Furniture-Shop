@@ -131,6 +131,15 @@
 }
 
 /* Category Menu */
+.category-menu a{
+    text-decoration:none;
+    color:black;
+    display:block;
+}
+
+.category-menu a:hover{
+    color:white;
+}
 .category-menu{
     display: none;
     background:#e1a266;
@@ -141,6 +150,7 @@
     left:-20px;
     border-radius:5px;
     color: black;
+    text-decoration:none;
 }
 
 .category-menu ul{
